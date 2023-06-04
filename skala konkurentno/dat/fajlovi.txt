@@ -1,0 +1,3 @@
+/home/marko/Desktop/PP/scala konkurentno/2021 jun1/3.scala
+/home/marko/Desktop/PP/2021jun2/2/1.hs
+/home/marko/Desktop/PP/2021jun2/1/1.hs
