@@ -16,6 +16,8 @@ object jun1_2020 {
       .map(x=>(x(3).toDouble,x(4).toDouble,1))
       .reduce((a,b)=>(a._1+b._1,a._2+b._2,a._3+1))
 
+    s.stop()
+
     println(res._1/res._3,res._2/res._3)
   }
 }

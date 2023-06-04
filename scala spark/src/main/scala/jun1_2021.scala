@@ -19,6 +19,8 @@ object jun1_2021 {
       .map(x => x._3.toInt)
       .mean()
 
+    sc.stop()
+
     println(res)
   }
 }
