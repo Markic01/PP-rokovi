@@ -16,9 +16,9 @@ object jun1_2021 {
       }) //(ime, rang, godine, pol)
       .filter(x => x._4.compareTo("male") == 0)
       .filter(x=> x._2.toInt <= 50)
-      .map(x => (x._3.toInt, 1))
-      .fold((0,0))((ak,vr)=>(ak._1+vr._1,ak._2+vr._2))
+      .map(x => x._3.toInt)
+      .mean()
 
-    println(res._1.toDouble/res._2)
+    println(res)
   }
 }
