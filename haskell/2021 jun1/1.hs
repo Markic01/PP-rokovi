@@ -1,11 +1,9 @@
-ubaci x list = x:list
-
 dodaj :: [(Int, Char)] -> (Int, Char) -> [(Int, Char)]
 dodaj [] karta = [karta]
 dodaj (x:xs) karta
         | fst x == fst karta && snd x == snd karta = (x:xs)
         | fst x < fst karta = x:(dodaj xs karta)
-        | fst x >= fst karta = ubaci karta (x:xs)
+        | fst x >= fst karta = karta:(x:xs)
 
 ukloni :: [(Int, Char)] -> (Int, Char) -> [(Int, Char)]
 ukloni [] _ = []
