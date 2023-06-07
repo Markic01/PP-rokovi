@@ -15,9 +15,9 @@ instance Eq Znak where
 
 
 data Karta = MkKarta {
-                                    vred :: Int,
-                                    znak :: Znak
-                                 } deriving (Show,Eq)
+                            vred :: Int,
+                            znak :: Znak
+                    } deriving (Show,Eq)
 
 type Ruka = [Karta]
 znakShow :: Znak -> String
