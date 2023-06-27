@@ -30,8 +30,7 @@ for igrac in igraci:
 for i in niz:
     print(i)
 
-max_godina = int(float(input()))
-print(max_godina)
+max_godina = int(input())
 pozicija = int(input())
 
 max_visina=-1
