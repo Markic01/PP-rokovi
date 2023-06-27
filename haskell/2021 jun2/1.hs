@@ -1,5 +1,4 @@
 import Data.Char
-import Data.List
 
 najduza :: [String] -> String
 najduza [a] = a
