@@ -37,6 +37,4 @@ for i in p.getSolutions():
         max_hemo = tr
         obj_max = i
 
-print(round(hemo(obj_max['B'],obj_max['C']
-           ,obj_max['D'],obj_max['M'],
-           obj_max['S'],i['X']),2))
+print(round(max_hemo,2))
