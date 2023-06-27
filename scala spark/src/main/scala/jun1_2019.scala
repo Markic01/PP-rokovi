@@ -10,7 +10,7 @@ object jun1_2019 {
       .map(x=>x.split(","))
       .filter(x=> x(1).compareToIgnoreCase("f")==0)
       .map(x=>(x(3).toDouble*2.54,1))
-      .fold((0.0,0))((a,b)=>(a._1+b._1,a._2+b._2))
+      .fold((0.0,0))((acc,b)=>(acc._1+b._1,acc._2+b._2))
 
     val resM = sc.textFile("dat/biostats.csv")
       .map(x => x.split(","))

@@ -10,7 +10,7 @@ poklapanjeShow p = [kar p] ++ " (" ++ (show (poz p)) ++ ")"
 
 poklapanjeM :: Int -> String -> Maybe Poklapanje
 poklapanjeM i str
-    | (length str) > i =  Just $ MkPoklapanje (str !! i) i
+    | (length str) > i =  Just (MkPoklapanje (str !! i) i)
     | otherwise = Nothing
 
 poklapanjeE :: Int -> String -> Either String Poklapanje

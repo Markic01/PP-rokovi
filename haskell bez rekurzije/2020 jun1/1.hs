@@ -1,6 +1,3 @@
-
-
-
 data Transakcija = MkTransakcija {
                                     ident :: Int,
                                     iznos :: Int,

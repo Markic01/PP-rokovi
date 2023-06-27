@@ -17,7 +17,7 @@ class Player:
 
     def __str__(self):
         return self.ime + " "+self.prezime
-
+    
 
 f = open(sys.argv[1])
 
