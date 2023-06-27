@@ -1,0 +1,21 @@
+drive,engine name,transmission type,miles per gallon,engine type,name,manufacturer,model year,horsepower
+4WD,Internal Combustion,Automatic,25,Gasoline,Toyota RAV4,Toyota,2022,303
+FWD,Internal Combustion,Manual,40,Diesel,Volkswagen Golf,Volkswagen,2023,350
+AWD,Hybrid,CVT,50,Gasoline,Toyota Prius,Toyota,2023,321
+RWD,Internal Combustion,Automatic,18,Gasoline,Ford Mustang,Ford,2021,450
+FWD,Internal Combustion,Manual,30,Gasoline,Honda Civic,Honda,2022,380
+2WD,Electric,Automatic,100,Electric,Tesla Model S,Tesla,2023,370
+AWD,Internal Combustion,CVT,28,Gasoline,Subaru Outback,Subaru,2023,382
+4WD,Internal Combustion,Manual,35,Diesel,Jeep Wrangler,Jeep,2021,360
+FWD,Hybrid,CVT,45,Hybrid,Toyota Camry,Toyota,2022,308
+RWD,Internal Combustion,Manual,20,Gasoline,Chevrolet Camaro,Chevrolet,2023,455
+4WD,Internal Combustion,Automatic,22,Gasoline,Jeep Grand Cherokee,Jeep,2022,395
+FWD,Internal Combustion,Manual,38,Diesel,Audi A3,Audi,2023,384
+AWD,Hybrid,CVT,55,Gasoline,Toyota Highlander,Toyota,2023,341
+RWD,Internal Combustion,Automatic,16,Gasoline,Dodge Challenger,Dodge,2021,717
+FWD,Internal Combustion,Manual,28,Gasoline,Hyundai Elantra,Hyundai,2022,347
+2WD,Electric,Automatic,120,Electric,Rivian R1T,Rivian,2023,754
+AWD,Internal Combustion,CVT,26,Gasoline,Toyota Sienna,Toyota,2023,345
+4WD,Internal Combustion,Manual,30,Diesel,Ford F-150,Ford,2021,350
+FWD,Hybrid,CVT,50,Hybrid,Lexus ES,Lexus,2022,315
+AWD,Internal Combustion,Manual,17,Gasoline,BMW M3,BMW,2023,473
