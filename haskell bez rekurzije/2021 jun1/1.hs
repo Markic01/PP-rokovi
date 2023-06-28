@@ -1,17 +1,4 @@
-data Znak = Herc | Karo | Pik | Tref
-
-instance Show Znak where
-    show Herc = "Herc"
-    show Karo = "Karo"
-    show Pik = "Pik"
-    show Tref = "Tref"
-
-instance Eq Znak where
-    (==) Herc Herc = True
-    (==) Karo Karo = True
-    (==) Pik Pik = True
-    (==) Tref Tref = True
-    (==) x y = False
+data Znak = Herc | Karo | Pik | Tref deriving (Show,Eq)
 
 
 data Karta = MkKarta {
