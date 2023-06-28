@@ -8,7 +8,6 @@ object jun2_2021 {
     val res = sc.textFile("dat/cars.csv")
       .map(x => {
         val spl = x.split(',')
-        println(spl(3))
         (spl(0), spl(3), spl(4), spl(7), spl(8)) //drive, mpg, engine type, year, hp
       })
       .filter(x => {
